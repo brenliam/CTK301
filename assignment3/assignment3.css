@@ -1,0 +1,51 @@
+.h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.h2 {
+    color: rgb(99, 99, 99);
+    background-color:rgb(216, 216, 216);
+}
+
+.h3{
+    color: rgb(228, 228, 228);
+    background-color: rgb(75, 18, 18);
+}
+
+#info{
+    color:gray;
+    background-color: white;
+}
+
+p{
+    color:rgb(36, 36, 36);
+    background-color: rgb(239, 239, 239);
+}
+
+
+.list{
+    color: red;
+    background-color: rgb(227, 227, 227);
+}
+
+.spanstyle {
+    color:rgb(137, 0, 0);
+}
+
+
+
+
+
+
+a:link {
+    color: #950c0c;
+}
+
+a:visited {
+    color: #059b5d;
+}
+
+a:hover {
+    color: #d4a301;
+  }
