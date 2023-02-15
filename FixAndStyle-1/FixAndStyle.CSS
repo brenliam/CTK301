@@ -1,0 +1,57 @@
+.thepoisonsky{
+    background-color: rgb(175, 185, 238);
+}
+
+h1{
+    color: white;
+}
+
+a{
+    color:green;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+h2{
+    color:blue;
+    
+}
+
+.doctor{
+    color:rgb(249, 183, 1);
+    font-weight: bold;
+}
+
+h3{
+    background-color: yellow;
+}
+
+.taxiservice {
+    color:red;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h4{
+    background-color: darkgreen;
+    color:yellow;
+    font-weight: bold;
+}
+
+.art{
+    background-color:rgb(74, 235, 155);
+}
+
+h5{
+    color:red;
+}
+
+.doctordaughter{
+    background-color: yellow;
+
+}
