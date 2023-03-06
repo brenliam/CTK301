@@ -1,0 +1,105 @@
+body {
+    background-image: url(a62.png);
+}
+
+#wrapper{
+    width: 960px;
+    border: 3px solid black;
+    margin: 1em auto;
+    display: grid;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+
+header{
+    grid-column: span 4;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    
+}
+
+nav{
+    grid-column: span 1;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+nav li a {
+    display: block;
+    background-color: red;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover{
+    background-color: rgb(180, 0, 0);
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
+main{
+    margin-right: 20px;
+    margin-left: 20px;
+    grid-column: span 3;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.justified {
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+    text-align: justify;
+   
+}
+
+footer {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border-top: 3px solid black;
+    background-color: red;
+    color: white;
+    grid-column: span 4;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+main img {
+    border: 3px solid black;
+    padding: 10px;
+   
+    float: left;
+    margin-right: 15px;
+}
