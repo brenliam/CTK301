@@ -11,7 +11,10 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  font-family: 'Arvo', serif; 
 }
+
+
 
 header {
     grid-column: span 3;
@@ -23,6 +26,9 @@ header {
     text-align: center;
     margin: 0px;
     padding: 0px;
+    text-shadow: 8px 8px 0px #000; /* x, y, blur, color */
+    font-family: 'Rubik Mono One', sans-serif;
+
 
 }
 /*
@@ -51,10 +57,14 @@ nav a {
 
 }
 */ 
+
+
+ 
 nav {
     grid-column: span 9; 
     text-decoration: none;
     margin-top: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
     
     
     
@@ -66,7 +76,7 @@ nav ul {
 }
 
 nav li {
-    width: 319px;
+    width: 310px;
     margin-bottom: 20px;
     margin-right: px;
     background-color: rgb(69, 54, 87);
@@ -80,14 +90,41 @@ nav a {
     display:block;
     padding: 13px;
     text-align: center;
+    height: 50px;
+    padding-top: 40px;
 }
 
 
 
 nav a:hover {
     background-color: rgb(196, 151, 5);
+    transition: background-color .5s, width 2.0s, color 2.0s;
+    height: 50px;
+    padding: 13px;
+    padding-top: 40px;
+    
+
 }
 
+.twod {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.gamedesign {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.twod a:hover {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.gamedesign a:hover {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 
 main img {
@@ -95,6 +132,8 @@ main img {
     max-width: 150px;
     margin: 0px;
     padding: 0px;
+    box-shadow: 8px 8px 0px #252532;
+    border-radius: 500px;
 }
 
 
@@ -124,6 +163,11 @@ footer {
 
 .sideimg {
     grid-column: span 5;
+    box-shadow: 10px 10px 0px #a39690;
+    width: 500px;
+    height: 520px;
+
+
    
 }
 
@@ -160,4 +204,7 @@ main a:hover {
     color: rgb(116, 113, 131);
 }
 
+section {
+    display: inline-block;
+}
 
