@@ -12,7 +12,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
   font-family: 'Arvo', serif; 
-}
+} 
 
 
 
@@ -97,8 +97,10 @@ nav a {
 
 
 nav a:hover {
-    background-color: rgb(196, 151, 5);
-    transition: background-color .5s, width 2.0s, color 2.0s;
+    background-image: url("to\ the\ death\ background\ 2.png");
+    transition:  background-image 1s, width 2.0s, 2.0s;
+    background-position: center;
+    background-size: 100%;
     height: 50px;
     padding: 13px;
     padding-top: 40px;
@@ -148,24 +150,20 @@ main {
 }
 
 .art {
-    
     grid-column: span 4;
-    float: right;
-}
-
-footer {
-    grid-column: span 3;
-    background-color: rgb(69, 54, 87);
-    color: white;
-    text-align: center;
+    width: 900px;
+    
 
 }
+
+
 
 .sideimg {
-    grid-column: span 5;
+    grid-column: span 9;
     box-shadow: 10px 10px 0px #a39690;
     width: 500px;
     height: 520px;
+    float: right;
 
 
    
@@ -208,3 +206,53 @@ section {
     display: inline-block;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.tile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tile:nth-child(1){
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.tile:nth-child(2),
+.tile:nth-child(3){
+    grid-column: span 3;
+}
+
+.tile:nth-child(4),
+.tile:nth-child(5){
+    grid-column: span 2;
+}
+
+.art{
+    grid-column: span 9;
+}
+
+.h1 a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    
+}
+
+.h1  {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    
+}
+
+.h1 a:hover {
+    color:rgb(209, 168, 33);
+    transition:  background-color .3s, width 2.0s, color 2.0s;
+    
+}
