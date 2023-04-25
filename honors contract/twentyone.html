@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tenth</title>
+    <link rel="stylesheet" href="mainCSS.CSS">
+</head>
+ 
+
+   
+    <div id="wrapper">
+    <img class="float" src="6.png" alt="placeholder">
+    <div class="elements">
+    <p class="paragraph1"> Please, no time for chit-chat. Get started on this next problem and enter it here! </p>
+
+<script> function redirect() {
+    var answergiven = document.getElementById("answergiven");
+    var realanswer = document.getElementById("realanswer");
+    var nextpage = document.getElementById("nextpage");
+  
+    if(answergiven.value.toLowerCase() == realanswer.value.toLowerCase()){
+        window.location.href = "twentyeight.html";
+    }
+    else{
+        window.location.href = "twentynine.html";
+    }
+  
+    return false; // prevent further bubbling of event
+  }
+
+</script>
+
+<form name="myform" onSubmit="return redirect()">
+   
+    <textarea id="answergiven"></textarea>
+    <input name="tosubmit" type="submit" value="I think I got it." />
+    <input type="hidden" id="realanswer" value="<img src="secret.png" alt="top secret documents">" />
+    <input type="hidden" id="nextpage" value="thenextpage.html" />
+    </form>
+
+
+
+
+
+ </div id="wrapper">
+</body> 
+</html> 
+
