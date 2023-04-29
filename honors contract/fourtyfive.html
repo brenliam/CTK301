@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOID</title>
+    <link rel="stylesheet" href="mainCSS.CSS">
+</head>
+ 
+
+   
+    <div id="wrapper">
+    <img class="float" src="7.png" alt="placeholder">
+    <div class="elements">
+    <p class="paragraph1"> I'm counting on you, buddy.  </p>
+
+<script> function redirect() {
+    var answergiven = document.getElementById("answergiven");
+    var realanswer = document.getElementById("realanswer");
+    var nextpage = document.getElementById("nextpage");
+  
+    if(answergiven.value.toLowerCase() == realanswer.value.toLowerCase()){
+        window.location.href = "thirtytwo.html";
+    }
+    else{
+        window.location.href = "thirtyone.html";
+    }
+  
+    return false; // prevent further bubbling of event
+  }
+
+</script>
+
+<form name="myform" onSubmit="return redirect()">
+    
+    <textarea id="answergiven"></textarea>
+    <input name="tosubmit" type="submit" value="I think I got it." />
+    <input type="hidden" id="realanswer" value='<link rel="stylesheet" href="thevoid.css">'/>
+    <input type="hidden" id="nextpage" value="thenextpage.html" />
+    </form>
+
+
+
+
+
+ </div id="wrapper">
+</body> 
+</html> 
+
